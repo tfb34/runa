@@ -13,8 +13,10 @@
   --text-on-light: #0F172A;
   --text-on-light-muted: #536176;
   /* Borders */
+  --border-primary: #1F2937;
 
   /* Feedback */
+
 
   /* 02. Buttons */
   --button-brand-bg: #4D90FF;
@@ -30,11 +32,41 @@
 
 [data-theme="light"]{
     --surface-base: #ffffff; 
+    --text-primary: #333;
 }
 
+body{
+  background: var(--surface-base);
+  color: var(--text-primary);
+}
 
 @theme inline{
+
+   /* 01. CORE */
+  
+  /* Backgrounds */
   --color-surface-base: var(--surface-base);
+  /* Text */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-accent: var(--text-accent);
+  --color-text-on-light: var(--text-on-light);
+  --color-text-on-light-muted: var(--text-on-light-muted);
+  /* Borders */
+  --color-border-primary: var(--border-primary);
+  
+  /* Feedback */
+
+
+  /* 02. Buttons */
+  --color-button-brand-bg: var(--button-brand-bg);
+  --color-button-secondary-bg: var(--button-secondary-bg);
+
+  /* 03. Phase Cards */
+  --color-phase-prep-bg: var(--phase-prep-bg);
+  --color-phase-prep-border: var(--phase-prep-border);
+  --color-phase-prep-accent: var(--phase-prep-accent);
+  --color-phase-prep-subtle: var(--phase-prep-subtle);
 }
 
 
