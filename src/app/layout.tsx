@@ -36,7 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </nav>
           </Container>
         </nav>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

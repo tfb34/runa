@@ -23,6 +23,7 @@
   --button-secondary-bg: #3A596D;
 
   /* 03. Phase Cards */
+  --phase-surface-base: #101E27;
   --phase-prep-bg: #122725;
   --phase-prep-border: #247A4B;
   --phase-prep-accent: #A7E7BA;
@@ -63,13 +64,21 @@ body{
   --color-button-secondary-bg: var(--button-secondary-bg);
 
   /* 03. Phase Cards */
+  --color-phase-surface-base: var(--phase-surface-base);
   --color-phase-prep-bg: var(--phase-prep-bg);
   --color-phase-prep-border: var(--phase-prep-border);
   --color-phase-prep-accent: var(--phase-prep-accent);
   --color-phase-prep-subtle: var(--phase-prep-subtle);
 }
 
-
+.btn{
+  background-color: var(--button-brand-bg);
+  color: var(--text-primary);
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
 
 
 
